@@ -43,6 +43,16 @@
 /* 👇👇👇 Add the media rule and the styles that are common within the TABLET and MOBILE views beneath 👇👇👇 */
 @media (max-width: 1023px) {
 
+  header {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   z-index: 1000;
+   background-color: white;
+   box-shadow: 0 4px 8px rgb(162, 162, 162)
+  }
+
   .top-navigation .trigram {
     display: block;
     justify-content: flex-end;
