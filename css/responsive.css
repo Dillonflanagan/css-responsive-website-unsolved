@@ -200,7 +200,7 @@
 
   .teammate {
     width: 100%;
-    border: solid black;
+    border: solid rgb(201, 201, 201);
     display: flex;
     flex-direction: row;
     gap: 0;
@@ -219,7 +219,7 @@
   }
 
   .teammate-img-wrapper {
-    padding: 20px
+    padding: 15px
   }
 
   footer .social-icons {
