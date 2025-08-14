@@ -106,7 +106,7 @@
   }
 
   .teammate-social-icons div {
-    background-color: rgb(63, 62, 62);
+    background-color: rgb(181, 179, 179);
   }
 
   .portfolio-content .portfolio-list {
@@ -174,6 +174,83 @@
 @media (max-width: 767px) {
   /* Add the styles that belong to the MOBILE view only beneath */
   
-    
+  .portfolio-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
   }
 
+  .portfolio-item-info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  p.item-description {
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+    
+  .teammates-content p.subtext {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .teammate {
+    width: 100%;
+    border: solid black;
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+  }
+
+  .teammate-data {
+    align-items: flex-start;
+  }
+
+  .teammate-info {
+    align-items: flex-start;
+  }
+
+  .teammate-social-icons {
+    gap: 20px;
+  }
+
+  .teammate-img-wrapper {
+    padding: 20px
+  }
+
+  footer .social-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 50%;
+    gap: 10px;
+  }
+
+  footer .social-icons div {
+    justify-content: flex-start;
+  }
+
+  footer .social-icons span{
+    display: block;
+  }
+
+  footer content{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer .footer-contacts {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+}
